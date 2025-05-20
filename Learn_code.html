@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Learn_code</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: rgb(211, 91, 91);
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .heading {
+      margin-top: 200px;
+      margin-left: 200px;
+      color: white;
+    }
+    .peragraph {
+      margin-left: 200px;
+      margin-top: 30px;
+      color: white;
+    }
+
+    .button {
+      padding: 13px;
+      width: 450px;
+      margin-top: 50px;
+      margin-left: 50px;
+      background-color: rgb(82, 82, 201);
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .parent {
+      display: flex;
+    }
+    .background-color {
+      background-color: white;
+      width: 450px;
+      height: 400px;
+      margin-left: 50px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .name {
+      padding: 10px;
+      width: 400px;
+      margin-left: 25px;
+      margin-top: 20px;
+    }
+    .claim {
+      padding: 15px;
+      width: 400px;
+      margin-left: 25px;
+      margin-top: 20px;
+      background-color: rgb(8, 139, 8);
+      color: white;
+      border-radius: 5px;
+      border: none;
+    }
+    .flex {
+      display: flex;
+      margin-left: 50px;
+      font-size: small;
+      margin-top: 10px;
+      gap: 10px;
+    }
+    div > .red-color {
+      color: red;
+    }
+    @media screen and (max-width: 600px) {
+      .parent {
+        flex-direction: column;
+      }
+      .heading {
+        margin-top: 200px;
+        margin-left: 50px;
+        color: white;
+      }
+      .peragraph {
+        margin-left: 50px;
+        margin-top: 30px;
+        color: white;
+      }
+    }
+  </style>
+  <body>
+    <div class="parent">
+      <div>
+        <div class="heading">
+          <h1>Learn to code by <br />watching others</h1>
+        </div>
+        <div class="peragraph">
+          <p>
+            See how experienced developors solve problem in-real time <br />
+            watching scripted tutorials is great.but understandig how
+            <br />developers think is invalable
+          </p>
+        </div>
+      </div>
+      <div>
+        <button class="button">
+          Try it free 7 days then $20/mo thereafter
+        </button>
+        <div class="background-color">
+          <input type="text" placeholder="Name" class="name" />
+          <input type="text" placeholder="Last name" class="name" />
+          <input type="email" placeholder="Emil Adddress" class="name" />
+          <input type="password" placeholder="Password" class="name" />
+          <button class="claim">CLIAM TOUR FREE TRAIL</button>
+          <div class="flex">
+            <p>By clicking the button.your agreeing to our</p>
+            <p class="red-color">Terms and Services</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: rgb(69, 117, 206);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    img {
+      height: 700px;
+      width: 60%;
+      object-fit:contain;
+      
+    }
+.message-icon{
+    font-size: 25px;
+    display:flex;
+   gap:20px;
+   color:white;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+    .parent {
+      display: flex;
+      gap: 150px;
+      margin-top: 10px;
+    }
+    .peragraph {
+      margin-top: 80px;
+      font-size: 25px;
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .huddle {
+      margin-top: 40px;
+    }
+    .message-icon>i{
+        margin-top: 20px;
+    }
+    button {
+      padding: 30px;
+      margin-top: 60px;
+      width: 400px;
+      color: rgb(69, 117, 206);
+      font-size: larger;
+      border-radius: 30px;
+    }
+    .icons {
+      font-size: 50px;
+      display: flex;
+      gap: 40px;
+      margin-left: 87%;
+      color: white;
+    }
+    @media screen and (max-width: 600px) {
+      img {
+        width: 90%;
+        margin-top: -160px;
+        margin-left: 10px;
+        
+      }
+      .parent {
+        flex-direction: column;
+        gap: 10px;
+       
+      }
+      .icons {
+        margin-left: 35%;
+        margin-top: 100px;
+      }
+      .peragraph {
+        margin-left: 100px;
+        margin-top: -100px  ;
+      }
+      .message-icon{
+        margin-left: 90px;
+        margin-top: 20;
+      }
+    }
+  </style>
+  <body>
+    <div class="message-icon">
+      <i class="fa-solid fa-message"></i>
+      <h1>Huddle</h1>
+    </div>
+    <div class="parent">
+      <img src="Screenshot 2025-03-08 113417.png" alt="image" />
+      <div class="peragraph">
+        <h1>
+          Build the communit <br />
+          Your fans will love
+        </h1>
+        <p class="huddle">
+          Huddle re-imagenies the way of build communities.you have <br />
+          a vois but so does your audiens.Create conectionn with <br />
+          your usesrs as you engage genuline discussion
+        </p>
+        <div>
+          <button>Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </body>
+</html>
